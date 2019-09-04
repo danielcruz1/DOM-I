@@ -40,3 +40,52 @@ const siteContent = {
 // Example: Update the img src for the logo
 let logo = document.getElementById("logo-img");
 logo.setAttribute('src', siteContent["nav"]["img-src"])
+
+const navigation = document.getElementsByTagName('a');
+navigation[0].innerHTML = siteContent['nav']['nav-item-1']
+navigation[0].style.color = 'gray';
+navigation[1].innerHTML = siteContent['nav']['nav-item-2']
+navigation[1].style.color = 'gray';
+navigation[2].innerHTML = siteContent['nav']['nav-item-3']
+navigation[2].style.color = 'gray';
+navigation[3].innerHTML = siteContent['nav']['nav-item-4']
+navigation[3].style.color = 'gray';
+navigation[4].innerHTML = siteContent['nav']['nav-item-5']
+navigation[4].style.color = 'gray';
+navigation[5].innerHTML = siteContent['nav']['nav-item-6']
+navigation[5].style.color = 'gray';
+
+const navImage = document.getElementById('cta-img');
+navImage.setAttribute('src', siteContent['nav']['img-src'])
+
+
+const heading = document.querySelector('h1');
+heading.innerHTML = siteContent['cta']['h1']
+
+const btn = document.querySelector('button');
+btn.innerHTML = siteContent['cta']['button']
+
+const img = document.querySelector('img');
+img.setAttribute('src', siteContent['cta']['img-src'])
+
+const headings = document.getElementsByTagName("h4");
+headings[0].innerHTML = siteContent["main-content"]["features-h4"]
+headings[1].innerHTML = siteContent["main-content"]["about-h4"]
+headings[2].innerHTML = siteContent["main-content"]["services-h4"]
+headings[3].innerHTML = siteContent["main-content"]["product-h4"]
+headings[4].innerHTML = siteContent["main-content"]["vision-h4"]
+headings[5].innerHTML = siteContent["contact"]["contact-h4"]
+const middleImg = document.getElementById("middle-img");
+middleImg.setAttribute('src', siteContent["main-content"]["middle-img-src"])
+
+const paragraphContent = document.getElementsByTagName("p");
+paragraphContent[0].innerHTML = siteContent["main-content"]["features-content"]
+paragraphContent[1].innerHTML = siteContent["main-content"]["about-content"]
+paragraphContent[2].innerHTML = siteContent["main-content"]["services-content"]
+paragraphContent[3].innerHTML = siteContent["main-content"]["product-content"]
+paragraphContent[4].innerHTML = siteContent["main-content"]["vision-content"]
+paragraphContent[5].innerHTML = siteContent["contact"]["address"]
+paragraphContent[6].innerHTML = siteContent["contact"]["phone"]
+paragraphContent[7].innerHTML = siteContent["contact"]["email"]
+paragraphContent[8].innerHTML = siteContent["footer"]["copyright"]
+
