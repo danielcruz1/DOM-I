@@ -69,7 +69,7 @@ newNavItem2.style.color = 'green';
 
 const newNavItems = document.querySelector('nav');
 newNavItems.prepend(newNavItem1);
-newNavItems.append(newNavItem2);
+newNavItems.appendChild(newNavItem2);
 
 // CONTAINER (CTA) -------------
 
