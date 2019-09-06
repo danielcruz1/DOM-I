@@ -43,19 +43,18 @@ logo.setAttribute('src', siteContent["nav"]["img-src"])
 
 //  NAV ---------------
 
-const navigation = document.getElementsByTagName('a')
+const navigation = document.querySelectorAll('a')
 navigation[0].textContent = siteContent['nav']['nav-item-1']
-navigation[0].style.color = 'green';
 navigation[1].textContent = siteContent['nav']['nav-item-2']
-navigation[1].style.color = 'green';
 navigation[2].textContent = siteContent['nav']['nav-item-3']
-navigation[2].style.color = 'green';
 navigation[3].textContent = siteContent['nav']['nav-item-4']
-navigation[3].style.color = 'green';
 navigation[4].textContent = siteContent['nav']['nav-item-5']
-navigation[4].style.color = 'green';
 navigation[5].textContent = siteContent['nav']['nav-item-6']
-navigation[5].style.color = 'green';
+
+const navColor = document.querySelectorAll('a');
+navColor.forEach(element => {
+  element.style.color = 'green'
+});
 
 // NEW ITEMS ---------
 
