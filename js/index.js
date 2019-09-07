@@ -104,13 +104,13 @@ paragraphContent[7].textContent = siteContent["contact"]["email"]
 paragraphContent[8].textContent = siteContent["footer"]["copyright"]
 
 
-const contactHeader = document.querySelector('contact-h4');
-contactHeader.textContent = siteContent['contact']['contact-h4']
+// const contactHeader = document.querySelector('.contact');
+// contactHeader.textContent = siteContent['contact']['contact-h4']
 
-const contactPara = document.querySelectorAll('contact p');
-contactPara[0].textContent = siteContent['contact']['address']
-contactPara[1].textContent = siteContent['contact']['phone']
-contactPara[2].textContent = siteContent['contact']['email']
+// const contactPara = document.querySelectorAll('contact p');
+// contactPara[0].textContent = siteContent['contact']['address']
+// contactPara[1].textContent = siteContent['contact']['phone']
+// contactPara[2].textContent = siteContent['contact']['email']
 
-const footer = document.querySelector('foot p');
-footer.textContent = siteContent['footer']['copyright']
+// const footer = document.querySelector('footer p');
+// footer.textContent = siteContent['footer']['copyright']
